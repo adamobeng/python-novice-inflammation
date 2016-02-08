@@ -94,3 +94,13 @@ the maxima of the first two data sets show exactly the same ramp as the first,
 and their minima show the same staircase structure;
 a different situation has been revealed in the third dataset,
 where the maxima are a bit less regular, but the minima are consistently zero.
+
+> ## Glob character ranges {.challenge}
+>
+> In addition to being able to match single or multiple characters with the `?`
+> and `*` wildcards, glob can match one character from a range using the 
+> `[...]` wildcard (e.g. `[abc]at` and `[a-c]at` match `aat`, `bat`, and `cat`).
+> If your data files are named in a systematic way, then you can use these
+> wildcards to retreive only a specific subset of them.
+> Knowing this, use glob to get the names of the first nine inflammation data
+> files. Do this in two different ways.
